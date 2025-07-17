@@ -9,7 +9,6 @@ Original file is located at
 
 import streamlit as st
 import pytesseract
-import cv2
 import numpy as np
 from PIL import Image
 
