@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Receipt Reader</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .output { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>🧾 Upload a Receipt</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="receipt" required>
+        <button type="submit">Extract</button>
+    </form>
+
+    {% if result %}
+    <div class="output">
+        <h2>🧾 Extracted Items & Prices</h2>
+        <ul>
+            {% for item, price in result %}
+            <li>{{ item }} — {{ price }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+</body>
+</html>
