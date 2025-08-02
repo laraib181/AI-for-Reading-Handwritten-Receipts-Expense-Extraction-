@@ -116,18 +116,13 @@ While OCR and receipt processing are not new, combining **OCR + NLP + OpenCV** t
 
 ---
 
-## 🛠️ Installation & Setup (Optional)
-
-> _Coming soon — If you want setup instructions, we can include environment setup, dependencies, and how to run locally or via Jupyter Notebook._
-
----
 
 ## 📫 Contact & Collaboration
 
 Feel free to contribute, raise issues, or collaborate on expanding this project.
 
-**Email:** yourname@example.com  
-**GitHub:** [YourGitHubUsername](https://github.com/YourGitHubUsername)
+**Email:** laraib.saleha12@gmail.com  
+
 
 ---
 
